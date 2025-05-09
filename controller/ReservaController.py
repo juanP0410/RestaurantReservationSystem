@@ -1,6 +1,6 @@
 # controllers/ReservaController.py
-from models.Reserva import Reserva
-from utils.EmailSender import enviar_email_confirmacion
+from models.modelsReserva import Reserva
+from utils.utilsEmailSender import enviar_email_confirmacion
 
 class ReservaController:
     def __init__(self, cliente_controller, mesa_controller):

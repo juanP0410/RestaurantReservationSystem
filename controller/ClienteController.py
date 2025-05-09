@@ -1,6 +1,6 @@
 # controllers/ClienteController.py
-from models.Cliente import Cliente
-from utils.Validators import validar_email_unico
+from models.modelsCliente import Cliente
+from utils.utilsValidators import validar_email_unico
 
 class ClienteController:
     def __init__(self):
