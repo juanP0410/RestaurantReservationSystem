@@ -1,5 +1,5 @@
 # controllers/MesaController.py
-from models.Mesa import Mesa
+from models.modelsMesa import Mesa
 
 class MesaController:
     def __init__(self):

@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 from controller import ClienteController, MesaController, ReservaController
-from models import Cliente, modelsMesa, modelsReserva
+
 
 class MainWindow(tk.Tk):
     def __init__(self):
